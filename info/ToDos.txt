@@ -1,0 +1,12 @@
+-delay IndexScan tuple read until the tuple is actually read
+
+
+
+lineitem - shipdate, orderkey, quantity, discount, suppkey, returnflag, shipmode, commitdate, receiptdate
+orders - custkey, orderkey, orderdate, orderpriority
+customer - custkey, mktsegment, nationkey
+region - regionkey, name
+nation - nationkey, regionkey, name
+supplier - suppkey, nationkey
+partsupp - partkey
+part - partkey, brand
